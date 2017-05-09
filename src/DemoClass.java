@@ -23,9 +23,9 @@ public class DemoClass {
         //Пользователь вводит количество строк, потом значения этих строк. Программа считает среднюю длину строк и выводит на экран.
         System.out.println("Task02");
         StringsNumber stringsNum = new StringsNumber();
-        int quantity = stringsNum.stringsQuantity(); //вводим кол-во строк
-        String[] array = stringsNum.stringsArray(quantity); //вводим сами строки
-        stringsNum.calculateQty(quantity, array); //считаем кол-во символов в каждой строке и среднее кол-во
+        //int quantity = stringsNum.stringsQuantity(); //вводим кол-во строк
+        //String[] array = stringsNum.stringsArray(quantity); //вводим сами строки
+        //stringsNum.calculateQty(quantity, array); //считаем кол-во символов в каждой строке и среднее кол-во
         stringsNum.calculateQty(6, new String[]{"iuyt", "kjhgfhjgf", "fghjghj", "y", "uuuu", "iuytr"}); //считаем кол-во символов в каждой строке и среднее кол-во
 
         //Пользователь вводит значения двух переменных. Программа реализует базовые математические операции над этими переменными (+ - * /).
