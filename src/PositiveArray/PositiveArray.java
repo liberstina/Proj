@@ -3,14 +3,15 @@ package PositiveArray;
 import java.util.Random;
 
 /**
- * Created by Marinka on 21.04.2017.
+ * @author  Marinka on 21.04.2017.
  */
 public class PositiveArray {
     private int[] array;
-    private Random random = new Random();
+    private Random random;
 
     public PositiveArray(int n) {
         array = new int[n];
+        random = new Random();
     }
 
     public int[] randomArray() {
